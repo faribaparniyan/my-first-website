@@ -47,6 +47,7 @@
     border: 0.5px solid white;
     position: relative;
     z-index: 1;
+    transition: 0.5s;
 
 }
 
@@ -62,4 +63,7 @@
 }
 .banner-button a:hover span{
     width: 100%;
+}
+.banner-button a:hover {
+    color: black;
 }
