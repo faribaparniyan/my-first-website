@@ -31,5 +31,35 @@
 .banner-style p {
     font-size: 20px;
     font-style: italic;
-    font-family: 'Poppins', sans-serif;
+    
+}
+.banner-button{
+    margin: 70px auto 0;
+
+}
+.banner-button a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 0.5px solid white;
+    position: relative;
+    z-index: 1;
+
+}
+
+.banner-button a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-button a:hover span{
+    width: 100%;
 }
