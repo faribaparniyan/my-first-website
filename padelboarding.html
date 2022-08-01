@@ -16,10 +16,45 @@
         <div class="banner-style">
             <h1> Surfing </h1>
             <p>enjoing the moments</p>
+            <div class="banner-button">
+                <a href="#"> <span></span>Find Out</a>
+                <a href="#"><span></span>Read More </a>
+            </div>
         </div>
-    
+        
+        
 
     </section>
     
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#"> Paddle Boards  </a></li>
+                <li><a href="#"> Wakeboards</a></li>
+                <li><a href="#"> Clothing </a></li>
+                <li><a href="#"> Accessories</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menubtn">
+        <img src="photos/menu.webp" id="menu">
+    </div>
+
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var menu = document.getElementById("menu")
+        var  sideNav = document.getElementById("sideNav")
+
+        menubtn.onclick = function(){
+            if(sideNav.style.right== "-200px"){
+                sideNav.style.right = "0"
+            }
+            else{
+                sideNav.style.right = "-200px"
+            }
+        }
+    </script>
 </body>
 </html>
