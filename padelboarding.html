@@ -41,18 +41,33 @@
         <img src="photos/menu.webp" id="menu">
     </div>
 
+    <!--features-->
+    <section id="features">
+        <div class="title-text">
+            <p>Features </p>
+            <h1> Why Choose Us</h1>
+        </div>
+    </section>
+
+
+
+
+
 
     <script>
         var menubtn = document.getElementById("menubtn")
         var menu = document.getElementById("menu")
         var  sideNav = document.getElementById("sideNav")
 
+        sideNav.style.right = "-200px"
         menubtn.onclick = function(){
             if(sideNav.style.right== "-200px"){
                 sideNav.style.right = "0"
+                menu.src = "photos/close1.png";
             }
             else{
                 sideNav.style.right = "-200px"
+                menu.src ="photos/menu.webp";
             }
         }
     </script>
