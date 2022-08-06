@@ -256,5 +256,53 @@ hr{
 }
 
 .single-service p{
-    font-size: 12px;
+    font-size: 14px;
+}
+
+/*--testimonial--*/
+
+#testimonial {
+    width: 100%;
+    padding: 70px 0;
+
+}
+
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #76878c;
+    cursor: pointer;
+    transition: 00.5s;
+}
+
+.testimonial-col p{
+    font-size: 14px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user img {
+    width: 60px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.testimonial-col:hover{
+    transform: translateY(7px);
+
 }
