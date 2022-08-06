@@ -306,3 +306,37 @@ hr{
     transform: translateY(7px);
 
 }
+
+/*--footer--*/
+
+#footer {
+    padding: 100px 20px 0;
+    background: #d7ecf5;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left , .footer-right {
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.footer-row h1{
+    margin: 10px 0;
+
+}
+
+.footer-row p{
+    line-height: 38px;
+}
